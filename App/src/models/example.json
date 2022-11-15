@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "name": "Karla",
+        "surname": "Jimenez",
+        "age":"26",
+        "mail": "kar@gmail.com",
+        "post":[] 
+    },
+    {
+        "id":1,
+        "title": "un titulo",
+        "contents": "contenido",
+        "userId": 1
+    }
+]
