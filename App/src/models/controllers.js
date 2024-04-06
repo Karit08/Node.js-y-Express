@@ -9,9 +9,7 @@ const getUsers = () =>{
 };
 
 const getUsersByName = (name) =>{
-    const byName = users.filter((user) =>{ 
-        return user.name === name; 
-    }); // regresa un objeto
+    const byName = users.filter( user =>{ return user.name === name; }); // regresa un objeto
     if(byName.length) return byName;
     else return { error: 'User not found'};
 };

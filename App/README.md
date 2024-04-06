@@ -1,3 +1,4 @@
+
 Para crear mi APP los pasos son los siguientes:
 
 1. En mi consola inicio mi package.json con:
@@ -21,3 +22,15 @@ Para crear mi APP los pasos son los siguientes:
         - Instaciamos un Router para aqui poner todas las rutas correspondientes y la exportamos que app.js la reciba 
         y que todas las rutas que entren con una ruta especifica vayan al ruter que le corresponde
 
+    Siempre ante un request(petición) existira una respuesta, puede logarse o no lo que se quería pero siempre habrá una respuesta.
+6. Inplemento mis controladores para que mis rutas lo puedan usar y asi hacer la prolijo el codigo.
+
+No existe un lugar que existe la conexión entre el front y el back, solo exite intercambio de información, eventualmente en momentos determinados habra comunicación 
+                                        Pregunta ---> Respuesta ---> FIN
+, no hay una comunicación que persiste todo el tiempo.
+
+El marco sobre el cual se establece la comunicación con el servidor a través del protocolo HTTP, establece una seríe de reglas y metodos para el intercambio de información entre el cliente-servidor, le indica al servidor que tipo de request se realiza para que el servidor este preparado para interpretar request y sepa que tiene que hacer:
+    - GET: solicitamos información.
+    - POST: guardamos algun tipo de recurso.
+    - PUT: queremos hacer alguna modificación.
+    - DELETE: cuando queremor eliminar algo.
